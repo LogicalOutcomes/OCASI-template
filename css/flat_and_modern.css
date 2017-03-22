@@ -7109,6 +7109,26 @@ a.list-group-item-danger.active:focus {
      border: 1px solid #E75041;
  }
 
+/* Navbar fixes */
+@media (min-width: 768px) {
+  #navbar {
+    float: right;
+    margin-right: 15px;
+  }
+
+  #navbar li a {
+    max-width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+@media (min-width: 1080px) {
+  #navbar li a {
+    max-width: 300px;
+  }
+}
+
 /* Sub Navigation */
 .sub-navigation {
     margin-top: 156px;
@@ -7125,7 +7145,7 @@ a.list-group-item-danger.active:focus {
 .sub-navigation-top-language {
     margin-top: 135px;
     margin-bottom: -105px;
-} 
+}
 .sub-navigation-top-progress {
     margin-top: 111px;
     margin-bottom: -81px;

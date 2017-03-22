@@ -1099,11 +1099,10 @@ p.return-to-survey{
 }
 
 /* Header fixes */
-@media only screen and (max-width: 1080px) {
-    /* text overflows, ellipsis and hyphens */
-    .navbar-brand {
-        white-space:nowrap;
-        text-overflow: ellipsis;
-        text-overflow: "…";
-    }
+
+/* text overflows, ellipsis and hyphens */
+.navbar-brand {
+    white-space:nowrap;
+    text-overflow: ellipsis;
+    text-overflow: "…";
 }
