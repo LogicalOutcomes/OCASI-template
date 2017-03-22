@@ -1,0 +1,33 @@
+        </div> <!-- main-col -->
+    </div><!-- main-row -->
+</div><!-- outerframe -->
+
+<footer>
+    <div class="row">
+            <div class="funded col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4 text-center">
+                <p class="founded-by">
+                    <span class="founded-by_content small">Funded by</span>
+                </p>
+                <img height="75px" src="{TEMPLATEURL}/files/Ontario-logo-Blk.png"/>
+                <p class="small">
+                The views expressed in this publication are the view of OCASI, and may not necessarily reflect those of the Province
+                </p>
+            </div>
+        </div>
+</footer>
+
+<!-- Bootstrap Modal Alert -->
+<div id="bootstrap-alert-box-modal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header" style="min-height:40px;">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">&nbsp;</h4>
+            </div>
+            <div class="modal-body"><p></p></div>
+            <div class="modal-footer">
+                <a href="#" data-dismiss="modal" class="btn btn-default">{CLOSE_TRANSLATION}</a>
+            </div>
+        </div>
+    </div>
+</div>
