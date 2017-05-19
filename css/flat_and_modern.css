@@ -6844,7 +6844,7 @@ button.close {
 }
 .text-info,
 .text-info:hover {
-  color: #3498db;
+  color: #205b25;
 }
 table a:not(.btn),
 .table a:not(.btn) {
@@ -7081,7 +7081,7 @@ a.list-group-item-danger.active:focus {
 
  /** Header **/
  .question-title-container, .questionvalidcontainer {
-     background-color: #233140;
+     background-color: #396d5b;
  }
 
 
@@ -7091,7 +7091,7 @@ a.list-group-item-danger.active:focus {
  }
 
  .questionvalidcontainer .text-info{
-     color: #B9CC14;
+     color: #F0FAF1;
  }
 
 .question-text {
@@ -7100,7 +7100,7 @@ a.list-group-item-danger.active:focus {
 
  /* Arrow */
  .questionvalidcontainer:after {
-     border-top-color: #233140;
+     border-top-color: #396d5b;
  }
 
 
